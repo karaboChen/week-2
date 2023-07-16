@@ -1,0 +1,40 @@
+.About {
+  margin-top:160px ;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Bruno Ace SC';
+}
+
+.left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width:50%;
+}
+.left_item{
+  width:47%;
+}
+.left .left_item:first-child{
+margin-bottom: 24px;
+}
+.left_item > p ,
+.left_item > h4{
+  font-size: 20px;
+  line-height: 30px;
+}
+.left_item > h5{
+  font-size: 16px;
+  line-height: 24px;
+}
+.right{
+width: 40%;
+}
+.right>h3{
+  font-size: 64px;
+  line-height: 96px;
+  margin-bottom: 35px;
+}
+.right>h4{
+  font-size: 24px;
+  line-height: 36px;
+}

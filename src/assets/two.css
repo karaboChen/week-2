@@ -1,0 +1,25 @@
+.img_container{
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+  font-family: 'Bruno Ace SC';
+  }
+  
+  .intr{
+    padding: 160px 0px;
+    display: flex;
+    gap:24px;
+  }
+  .intr_txt{
+    width: 41%;
+  }
+  .intr_txt >h3 {
+    color: white;
+    font-size: 64px;
+    line-height: 96px;
+    margin-bottom: 36px;
+  }
+  .intr_txt >h4 {
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 32px;
+  }

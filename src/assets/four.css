@@ -1,0 +1,24 @@
+.contact {
+  margin-top: 160px;
+  background: linear-gradient(#050014, #01021E);
+}
+.contact_box{
+display: flex;
+ align-items: center;
+}
+.contact_left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding:129px 0px;
+}
+.contact_left > h3{
+  color: white;
+  font-size: 64px;
+  line-height: 96px;
+}
+.contact_right{
+  width: 50%;
+  text-align: end;
+}

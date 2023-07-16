@@ -1,0 +1,57 @@
+.pics {
+  margin-top: 160px;
+}
+
+.pics>h3 {
+  width: 55%;
+  font-size: 64px;
+  line-height: 96px;
+  margin-left: auto;
+}
+
+.pic_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pics_left>img ,
+.pics_right > img{
+  vertical-align: middle;
+}
+
+.phone{
+  margin-right: 24px;
+}
+.small_box{
+  display: flex;
+  margin-bottom: 28px;
+}
+.pics_right{
+  max-width: 856px;
+}
+.small_txt{
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.small_txt>h5{
+  font-family: 'Bruno Ace SC';
+ line-height: 24px;
+}
+.small_bg{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 196px;
+  border-radius:32px ;
+}
+.small_bg > a{
+  padding: 12px 0px;
+  color: white;
+  text-decoration: none;
+}
+.small_bg:hover{
+  background: aqua;
+}
